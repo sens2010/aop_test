@@ -16,7 +16,7 @@ public class JobService {
 
 	private static Logger _logger = LoggerFactory.getLogger(JobService.class);
 
-	private static long last_called =0L; 
+	private static long last_called =1L; 
 	private static final long delay = 100000;
 	
 	/**
