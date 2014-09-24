@@ -17,7 +17,7 @@ public class JobService {
 	private static Logger _logger = LoggerFactory.getLogger(JobService.class);
 
 	private static long last_called =0L; 
-	private static final long delay = 10000;
+	private static final long delay = 100000;
 	
 	/**
 	 * 任务调度方法示例,该方法不能有返回值否则会出现异常
